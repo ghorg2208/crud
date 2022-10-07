@@ -11,13 +11,13 @@ if(isset($_POST['delete_student']))
 
     if($query_run)
     {
-        $_SESSION['message'] = "l etudiant a bien ete supprime";
+        $_SESSION['message'] = "l'etudiant a bien ete supprime";
         header("Location: index.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "l etudiant n a pas ete supprime";
+        $_SESSION['message'] = "l'etudiant n'a pas ete supprime";
         header("Location: index.php");
         exit(0);
     }
@@ -37,13 +37,13 @@ if(isset($_POST['update_student']))
 
     if($query_run)
     {
-        $_SESSION['message'] = "l etudiant a bien ete modifie";
+        $_SESSION['message'] = "l'etudiant a bien ete modifie";
         header("Location: index.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "l etudiant n a pas ete modifie";
+        $_SESSION['message'] = "l'etudiant n'a pas ete modifie";
         header("Location: index.php");
         exit(0);
     }
@@ -63,13 +63,13 @@ if(isset($_POST['save_student']))
     $query_run = mysqli_query($con, $query);
     if($query_run)
     {
-        $_SESSION['message'] = "l etudiant a bien ete cree";
+        $_SESSION['message'] = "l'etudiant a bien ete cree";
         header("Location: student-create.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "l etudiant n a pas ete cree";
+        $_SESSION['message'] = "l'etudiant n'a pas ete cree";
         header("Location: student-create.php");
         exit(0);
     }

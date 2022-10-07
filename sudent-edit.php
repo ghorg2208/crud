@@ -72,7 +72,7 @@ require 'dbcon.php';
                             }
                             else
                             {
-                                echo "<h4>Erreur l etudiant n existe pas</h4>";
+                                echo "<h4>Erreur l'etudiant n'existe pas</h4>";
                             }
                         }
                         ?>

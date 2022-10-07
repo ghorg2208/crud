@@ -11,7 +11,7 @@ require 'dbcon.php';
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>view</title>
+    <title>vue de l'etudiant</title>
 </head>
 <body>
 
@@ -21,7 +21,7 @@ require 'dbcon.php';
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Details de l etudiant
+                        <h4>Details de l'etudiant
                             <a href="index.php" class="btn btn-danger float-end">RETOUR</a>
                         </h4>
                     </div>
