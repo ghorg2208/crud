@@ -64,13 +64,13 @@ if(isset($_POST['save_student']))
     if($query_run)
     {
         $_SESSION['message'] = "l'etudiant a bien ete cree";
-        header("Location: student-create.php");
+        header("Location: student_create.php");
         exit(0);
     }
     else
     {
         $_SESSION['message'] = "l'etudiant n'a pas ete cree";
-        header("Location: student-create.php");
+        header("Location: student_create.php");
         exit(0);
     }
 }

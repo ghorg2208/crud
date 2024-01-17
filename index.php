@@ -25,7 +25,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h4>Liste des Etudiants
-                            <a href="student-create.php" class="btn btn-primary float-end">Ajouter un Etudiant</a>
+                            <a href="student_create.php" class="btn btn-primary float-end">Ajouter un Etudiant</a>
                         </h4>
                     </div>
                     <div class="card-body">
